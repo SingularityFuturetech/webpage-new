@@ -1,25 +1,26 @@
+function toggleArticle() {
+  var article = $("#article");
+  if (article.css("display") === "none") {
+    article.fadeIn("slow");
+  } else {
+    article.fadeOut("slow");
+  }
+}
 
-jQuery(document).ready(function($){
- 
+function toggleArticle2() {
+  var article = $("#article2");
+  if (article.css("display") === "none") {
+    article.fadeIn("slow");
+  } else {
+    article.fadeOut("slow");
+  }
+}
 
-    // Open
-    $("button").click(function(){
-      $("#bottom").fadeIn("slow");
-    });
-    // Close
-    $(".close").click(function(){
-      $("#bottom").fadeOut("slow");
-    });
-    // Close on off click 
-    $(document).mouseup(function (e)
-    {
-        var container = $("#bottom");
-        if (container.has(e.target).length === 0)
-        {
-            container.fadeOut("slow");
-        }
-    });
-     
-      
-    });
-       
+function toggleArticle3() {
+  var article = $("#article3");
+  if (article.css("display") === "none") {
+    article.fadeIn("slow");
+  } else {
+    article.fadeOut("slow");
+  }
+}

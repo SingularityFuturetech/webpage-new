@@ -25,4 +25,13 @@ function toggleArticle3() {
   }
 }
 
+function toggleArticle4() {
+  var article = $("#article4");
+  if (article.css("display") === "none") {
+    article.fadeIn("slow");
+  } else {
+    article.fadeOut("slow");
+  }
+}
+
 // testing

@@ -24,3 +24,5 @@ function toggleArticle3() {
     article.fadeOut("slow");
   }
 }
+
+// testing

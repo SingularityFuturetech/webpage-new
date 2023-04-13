@@ -3364,6 +3364,7 @@ main .container2 {
 }
  .accordion button .accordion-title {
 	 padding: 1em 1.5em 1em 0;
+     font-size: 20px;
 }
  .accordion button .icon {
 	 display: inline-block;
